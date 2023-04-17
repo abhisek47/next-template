@@ -14,7 +14,11 @@ module.exports = {
     },
     extend: {
       fontFamily: {
-        sans: ["var(--font-sans)", ...fontFamily.sans],
+        sans: ["Sora", ...fontFamily.sans],
+      },
+      boxShadow: {
+        "3xl":
+          "0 20px 34px 0 rgba(11, 11, 44, 0.04), 0 4px 8px 0 rgba(11, 11, 44, 0.02), 0 10px 34px 0 rgba(52, 52, 255, 0.05)",
       },
       keyframes: {
         "accordion-down": {
