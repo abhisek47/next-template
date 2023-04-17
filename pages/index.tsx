@@ -42,6 +42,8 @@ export default function IndexPage() {
             </div>
           </div>
         </section>
+        {/* analytics */}
+        <section className="mx-auto w-full p-3 lg:w-11/12"></section>
       </main>
     </Layout>
   )
