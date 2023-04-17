@@ -37,7 +37,7 @@ function Navigations() {
         <Menubar>
           {/* dashboard */}
           <MenubarMenu>
-            <MenubarTrigger>
+            <MenubarTrigger asChild>
               <div className="flex items-center gap-2">
                 <LayoutDashboard size={18} />
                 <p>Dashboard</p>
