@@ -43,7 +43,9 @@ export default function IndexPage() {
           </div>
         </section>
         {/* analytics */}
-        <section className="mx-auto w-full p-3 lg:w-11/12"></section>
+        <section className="mx-auto w-full p-3 lg:w-11/12">
+          <div className="grid grid-cols-1 items-start md:grid-cols-12"></div>
+        </section>
       </main>
     </Layout>
   )
